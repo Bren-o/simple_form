@@ -33,12 +33,12 @@ body
 }
 .box .form.ent,
 .box.entForm .form.cad
-{
+{ 
   display: none;
 }
 .box.entForm .form.ent
 {
- display: flex;
+  display: flex;
 }
 .inputBox
 {
@@ -91,8 +91,6 @@ body
 }
 .box .inputBox input[type="submit"]
 {
-  background: #fff5ff;
-  color: #223243;
   padding: 10px 0;
   font-weight: bold;
   cursor: pointer;
@@ -104,8 +102,15 @@ body
   font-size: .75em;
   font-weight: 300;
 }
-.box p a
+.box p u
 {
   color: #ff0095;
   font-weight: 500;
+  cursor: pointer;
+}
+.box .errorMessage
+{
+  margin-top: 9px;
+  color: #f73131;
+  font-size: .8em;
 }
